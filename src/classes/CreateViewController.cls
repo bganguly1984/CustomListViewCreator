@@ -577,4 +577,7 @@ public with sharing class CreateViewController {
 		}
 		return con;
 	}
+	Public void hello() {
+		"Hello World";
+	}
 }
