@@ -2,7 +2,7 @@
 public with sharing class CreateViewController {   
 
 	public String viewname {get;set;}
-	//public List<Selectoption> available {get;set;}
+	public List<Selectoption> available {get;set;}
 	public List<String> availselected {get;set;}
 	public List<String> optselected {get;set;}
 	public List<Selectoption> SelectedList {get;set;}
