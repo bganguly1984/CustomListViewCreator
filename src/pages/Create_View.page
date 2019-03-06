@@ -164,7 +164,7 @@
 	        <apex:commandlink action="{!addrow}" value="Add Row " rerender="filterid,Act"/>  
 			<apex:commandlink action="{!deleterow}" value=" Delete Row" rerender="filterid,Act" rendered="{!if(Count > 5 ,true,false)}"/> 
         </apex:outputpanel>
-	<!--<apex:outputpanel/>-->
+	<apex:outputpanel/>
         <apex:pageblockSection title="Step 4. Select Fields to Display" id="fields">        	
               <c:MultiselectPicklist id="chooseField"  leftLabel="Available Fields"  leftOptions="{!LeftFieldList}"   rightLabel="Selected Fields"
     								rightOptions="{!SelectedList}" size="8"    width="150px" />
