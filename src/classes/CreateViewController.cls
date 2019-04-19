@@ -1,5 +1,5 @@
 
-public with sharing class CreateViewController {   
+public class CreateViewController {   
 
 	system.debug('test');
 }
